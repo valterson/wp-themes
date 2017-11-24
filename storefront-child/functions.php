@@ -17,10 +17,13 @@ function remove_actions_parent_theme() {
   remove_action( 'storefront_header', 'storefront_secondary_navigation', 30 );
   remove_action( 'storefront_header', 'storefront_product_search', 40 );
   remove_action( 'storefront_header', 'storefront_primary_navigation', 50 );
+  remove_action( 'storefront_header', 'storefront_header_cart', 60 );
 };
 
 function add_actions_parent_theme() {
-  add_action( 'storefront_header', 'storefront_primary_navigation', 0 );
-  add_action( 'storefront_header', 'storefront_product_search', 10 );
+  add_action( 'storefront_header', 'storefront_site_branding', 0 );
+  add_action( 'storefront_header', 'storefront_primary_navigation', 10 );
+  add_action( 'storefront_header', 'storefront_header_cart', 20 );
+  add_action( 'storefront_header', 'storefront_product_search', 30 );
 }
 ?>

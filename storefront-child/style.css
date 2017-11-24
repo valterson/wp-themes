@@ -9,10 +9,64 @@
     padding-top: 0;
   }
 
-  .woocommerce-active .site-header .main-navigation {
-    width: 100%;
+  .site-header .custom-logo-link {
+    display: block;
     float: none;
-    margin-right: 0;
+  }
+
+  .woocommerce-active .site-branding .custom-logo-link {
+    display: inline-block;
+    padding: 12px 0 0 42px;
+  }
+
+  .woocommerce-active .site-branding {
+    float: left;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    width: 206px;
+    clear: none;
+  }
+
+  .woocommerce-active .site-header .main-navigation {
+    float: left;
+    height: 60px;
+    margin: 0;
+    width: auto;
+    clear: none;
+  }
+
+  .primary-navigation .menu.nav-menu li.menu-text {
+    margin: 0;
+  }
+
+  .primary-navigation .menu.nav-menu li.menu-text a {
+    color: #00b05a;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 30px 0 0;
+    padding: 19px 0 22px 0;
+  }
+
+  .primary-navigation .menu.nav-menu li.menu-text:last-child a {
+    margin: 0;
+  }
+
+  .woocommerce-active .site-header .site-header-cart {
+    float: left;
+    height: 60px;
+    width: auto;
+  }
+
+  .site-header-cart .cart-contents {
+    padding: 0;
+  }
+
+  .woocommerce-active .site-header .site-search {
+    display: block;
+    float: none;
+    margin: 0;
   }
 
   /* FOOTER CUSTOM STYLES */
