@@ -1,0 +1,78 @@
+/*
+ Theme Name:   My Child Theme
+ Template:     storefront
+*/
+
+@media (min-width: 768px) {
+  /* HEADER CUSTOM STYLES */
+  .site-header {
+    padding-top: 0;
+  }
+
+  .woocommerce-active .site-header .main-navigation {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  /* FOOTER CUSTOM STYLES */
+  .site-footer {
+    padding: 27px 0 18px 41px;
+  }
+  
+  .widget {
+    margin: 0 0 24px;
+  }
+
+  .widget.widget_text {
+    font-size: 0.875rem;
+    line-height: 2,285714286;
+    margin-bottom: 0;
+  }
+  
+  .widget .widget-title, .widget .widgettitle {
+    border-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 7px;
+    padding: 0;
+  }
+  
+  .footer-link {
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+
+  .footer-widgets {
+    border-bottom: 0;
+    padding-top: 0;
+  }
+
+  .footer-widgets.col-4 .block {
+    border-right: 1px solid #02d46e;
+    min-height: 190px;
+    padding: 13px 0 0 20px;
+    margin-right: 0;
+    width: 24.7%;
+  }
+
+  .footer-widgets.col-4 .block:first-child {
+    padding: 29px 0 0 0;
+    width: 21.7391304348%;
+  }
+
+  .footer-widgets.col-4 .block:first-child .widget .widget_text {
+    margin-bottom: 0;
+  }
+
+  .footer-widgets.col-4 .block:nth-child(2) {
+    padding-left: 50px;
+  }
+
+  .footer-widgets.col-4 .block:last-child {
+    width: calc(100% - 71.139130435%);
+  }
+}
